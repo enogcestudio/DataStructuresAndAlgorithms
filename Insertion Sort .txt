@@ -25,4 +25,4 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
       
    4) 18 average case kapsamındadır.
     
-
+[Patika.dev](https://www.patika.dev/tr)
