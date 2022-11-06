@@ -32,12 +32,11 @@ Big-O gösterimini yazınız.
 
 Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 Big-O gösterimini yazınız.
-Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
 Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 
 ### Cevap: 
 <p>
-    1)    [22	27	16	2	18	6]		Data
+       1) [22	27	16	2	18	6]		Data
          <br/>
         [2	27	16	22	18	6]		[2-22]
          <br/>
@@ -45,9 +44,11 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
          <br/>
         [2	6	16	18	22	27]		[18-22]
         <br/>
-       2) Big-O 			O(n^2) => O(36)
+       2) Big-O 			O(n^2)
         <br/>
-       3)    Dizi sıralandıktan sonra 18 sayısı ortada olacağı için Average Case kapsamına girer.
+       3)Time Complexity: Average case:O(n²),Worst case: O(n²), Best case:O(n)
+        <br/>
+       4) 18 average case kapsamındadır.
     </p>
         
         
@@ -59,15 +60,90 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 
 ### Cevap:
                         [7,5,1,8,3,6,0,9,4,2]
-  <p> 1) Öncelikle Binary  Search sıralanmış (sorting algoritması yapılmış) dizi üzerinde yapılır.
-    Sıralanmış dizimiz [0,1,2,3,4,5,6,7,8,9] olur.
-    10 indeksli dizimizde 6. index olan 5 elemanı Root olur.
-    Root = 5
-    Rootun sağında 6 solunda 4 bulunur
+  <p> 1)Sıralama adımları :
+       7
+   -----------------<br/>
+       7
+      /
+     5
+   -----------------<br/>
+        7
+       /
+      5
+    /
+   1
+   ------------------<br/>
+         7
+       /   \
+      5     8
+    /
+   1
+  ------------------<br/>
+         7
+       /   \
+      5     8
+    /        
+   1 
+    \
+     3
+  ------------------<br/>
+         7
+       /   \
+      5     8
+    /  \      
+   1    6
+    \
+      3     
+ ------------------<br/>
+         7
+       /   \
+      5     8
+    /  \      
+   1    6
+  / \
+ 0   3 
+ ------------------<br/>
+         7
+       /   \
+      5     8
+    /  \     \
+   1    6     9
+  / \
+ 0   3 
+------------------<br/>
+         7
+       /   \
+      5     8
+    /  \     \
+   1    6     9
+  / \
+ 0   3
+      \
+       4
+------------------<br/>
+         7
+       /   \
+      5     8
+    /  \     \
+   1    6     9
+  / \
+ 0   3
+    / \
+   2   4
+   
+<br/>
+   
+    10 indeksli dizimizde 1. index olan 7 elemanı Root olur.
+    Root = 7
+    Rootun sağında 8 solunda 5 bulunur.
+    - 8'in sağında 9 vardır.
+    - 5'in sağında 6 solunda 1 vardır.
+    - 1'in solunda 0 sağında 3 vardır.
+    - 3'ün solunda 2 sağında 4 vardır. (2 ve 4 bu ağacın yaprak düğümleridir.)
     </p>
     <br/>
     
-## [Patika](https://app.patika.dev/mehmetarikannn)
+## [Patika Link](https://app.patika.dev/mehmetarikannn)
     
 
 
