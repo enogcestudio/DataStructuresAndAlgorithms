@@ -13,13 +13,13 @@ Big-O gösterimini yazınız.
    -         [16,21,11,8,12,22] 
               
         [16]-[21,11]    -    [8]-[12,22]
-         <br/>
+         
         [16]-[21]-[11]       [8]-[12]-[22]
-         <br/>
+       
          [16]-[11,21]         [8,12]-[22]
-          <br/>
+         
           [11,16,21]  -   [8,12,22]
-           <br/>
+           
         [8,11,12,16,21,22]
 
 -  Big-O Notation = O(nlogn) şeklindedir.
@@ -67,7 +67,7 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
     </p>
     <br/>
     
- [Patika](https://app.patika.dev/mehmetarikannn)
+## [Patika](https://app.patika.dev/mehmetarikannn)
     
 
 
