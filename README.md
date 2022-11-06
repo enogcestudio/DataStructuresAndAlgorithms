@@ -36,7 +36,8 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 
 ### Cevap: 
 <p>
-       1) [22	27	16	2	18	6]		Data
+   1)
+        [22	27	16	2	18	6]		Data
          <br/>
         [2	27	16	22	18	6]		[2-22]
          <br/>
@@ -44,11 +45,11 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
          <br/>
         [2	6	16	18	22	27]		[18-22]
         <br/>
-       2) Big-O 			O(n^2)
+   2) Big-O 			O(n^2)
         <br/>
-       3)Time Complexity: Average case:O(n²),Worst case: O(n²), Best case:O(n)
+   3) Time Complexity: Average case:O(n²),Worst case: O(n²), Best case:O(n)
         <br/>
-       4) 18 average case kapsamındadır.
+   4) 18 average case kapsamındadır.
     </p>
         
         
@@ -62,23 +63,23 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
                         [7,5,1,8,3,6,0,9,4,2]
   <p> 1)Sıralama adımları :
        7
-   -----------------<br/>
+   -----------------
        7
       /
      5
-   -----------------<br/>
+   -----------------
         7
        /
       5
     /
    1
-   ------------------<br/>
+   ------------------
          7
        /   \
       5     8
     /
    1
-  ------------------<br/>
+  ------------------
          7
        /   \
       5     8
@@ -86,7 +87,7 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
    1 
     \
      3
-  ------------------<br/>
+  ------------------
          7
        /   \
       5     8
@@ -94,7 +95,7 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
    1    6
     \
       3     
- ------------------<br/>
+ ------------------
          7
        /   \
       5     8
@@ -102,7 +103,7 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
    1    6
   / \
  0   3 
- ------------------<br/>
+ ------------------
          7
        /   \
       5     8
@@ -110,7 +111,7 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
    1    6     9
   / \
  0   3 
-------------------<br/>
+------------------
          7
        /   \
       5     8
@@ -120,7 +121,7 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
  0   3
       \
        4
-------------------<br/>
+------------------
          7
        /   \
       5     8
@@ -130,8 +131,6 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
  0   3
     / \
    2   4
-   
-<br/>
    
     10 indeksli dizimizde 1. index olan 7 elemanı Root olur.
     Root = 7
